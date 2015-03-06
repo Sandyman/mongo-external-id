@@ -22,11 +22,12 @@
   },
   "homepage": "https://github.com/Sandyman/mongo-external-id",
   "dependencies": {
-    "string": "~3.0.0",
-    "monguscate": "~0.1.0"
+    "string": "~3.0.0"
   },
   "devDependencies": {
     "chai": "^2.1.1",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "mongoose": "~3.6.13",
+    "monguscate": "~0.1.0"
   }
 }
