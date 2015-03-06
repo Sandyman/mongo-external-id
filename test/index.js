@@ -55,6 +55,8 @@ describe('mongo-external-id', function() {
 
     user.save(function () {
       expect(user.xid).to.eql(obfuscate(user._id.toString()));
+
+      // Clean up
       user.remove();
     });
 
